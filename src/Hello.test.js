@@ -23,4 +23,9 @@ it('renders with or without a name', () => {
         render(<Hello />, container);
     });
     expect(container.textContent).toBe('Hey, stranger');
+    
+    act(() => {
+        render(<Hello name='Jenny' />, container);
+    });
+    expect(container.textContent).toBe('Hello, Jenny!');
 });
