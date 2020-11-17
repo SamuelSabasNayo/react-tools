@@ -68,6 +68,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# react-tools
-This a react tools repository.
+
+
+
+[![Build Status](https://travis-ci.com/SamuelSabasNayo/react-tools.svg?branch=develop)](https://travis-ci.com/SamuelSabasNayo/react-tools)
