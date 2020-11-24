@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.com/SamuelSabasNayo/react-tools.svg?branch=develop)](https://travis-ci.com/SamuelSabasNayo/react-tools)
 <a href="https://codeclimate.com/github/atlp-rwanda/space-bn-frontend/maintainability"><img src="https://api.codeclimate.com/v1/badges/3e75b6bbdd43289b59ec/maintainability" /></a>
 <a href="https://codeclimate.com/github/atlp-rwanda/space-bn-frontend/test_coverage"><img src="https://api.codeclimate.com/v1/badges/3e75b6bbdd43289b59ec/test_coverage" /></a>
-[![Coverage Status](https://coveralls.io/repos/github/atlp-rwanda/space-bn-frontend/badge.svg?branch=develop)](https://coveralls.io/github/atlp-rwanda/space-bn-frontend?branch=develop)
+[![Coverage Status](https://coveralls.io/repos/github/SamuelSabasNayo/react-tools/badge.svg?branch=develop)](https://coveralls.io/github/SamuelSabasNayo/react-tools?branch=develop)
 
 React Tools is an application that will enable to have different tools for React
 
