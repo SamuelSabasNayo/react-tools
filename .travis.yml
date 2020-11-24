@@ -7,6 +7,9 @@ cache:
   directories:
     - node modules
 
-script:
+before_script:
   - npm run build
   - npm test
+  
+after_script:
+  - npm run coverage
