@@ -1,6 +1,6 @@
 const sum = (a, b) => a + b
 test('Add 3 and 4', () => {
-    expect(sum(3, 4)).toEqual(8)
+    expect(sum(3, 4)).toEqual(7)
 });
 
 
