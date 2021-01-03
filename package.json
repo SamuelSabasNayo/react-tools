@@ -3,8 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "npm run build & serve -s ./build",
+    "start": "react-scripts start",
     "test": "jest --coverage --colors ./src/",
+    "build": "react-scripts build",
     "test:coverage": "jest --coverage",
     "test:watch": "jest --silent -- watch",
     "coverage": "jest --coverage && cat ./coverage/lcov.info | coveralls"
@@ -36,5 +37,17 @@
     "babel-jest": "^26.6.3",
     "coveralls": "^3.1.0",
     "jest": "^26.6.3"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
