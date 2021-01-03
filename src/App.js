@@ -21,7 +21,7 @@ class App extends Component {
   let buttonText = this.state.isLoggedIn ? "LOG OUT" : "LOG IN"
   let displayText = this.state.isLoggedIn ? "Logged in" : "Logged out"
     return (
-      <div>
+      <div style={{ width: '10%', margin: 'auto' }}>
         <button onClick={this.handleClick}>{buttonText}</button>
         <h2>{displayText}</h2>
       </div>
