@@ -1,6 +1,6 @@
 # React Tools
 
-[![<ORG_NAME>](https://circleci.com/gh/SamuelSabasNayo/react-tools.svg?style=svg)](https://app.circleci.com/pipelines/github/SamuelSabasNayo/react-tools)
+[![<ORG_NAME>](https://circleci.com/gh/SamuelSabasNayo/react-tools.svg?style=shield)](https://app.circleci.com/pipelines/github/SamuelSabasNayo/react-tools)
 [![Build Status](https://travis-ci.com/SamuelSabasNayo/react-tools.svg?branch=develop)](https://travis-ci.com/SamuelSabasNayo/react-tools)
 <a href="https://codeclimate.com/github/atlp-rwanda/space-bn-frontend/maintainability"><img src="https://api.codeclimate.com/v1/badges/3e75b6bbdd43289b59ec/maintainability" /></a>
 <a href="https://codeclimate.com/github/atlp-rwanda/space-bn-frontend/test_coverage"><img src="https://api.codeclimate.com/v1/badges/3e75b6bbdd43289b59ec/test_coverage" /></a>
