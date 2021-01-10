@@ -10,8 +10,7 @@ class Navbar extends Component {
           const { isAuthenticated, toggleAuth } = authContext;
           const { isLightTheme, light, dark } = themeContext;
           const theme = isLightTheme ? light : dark;
-          console.log(isAuthenticated)
-          console.log(toggleAuth)
+          
           return(
             <nav
             style={{ background: theme.ui , color: theme.syntax }}
