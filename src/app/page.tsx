@@ -1,15 +1,19 @@
-export default async function Home() {
+import Link from "next/link";
 
+export default function Home() {
   return (
     <main>
       <div>
-        <h1 
-        // className="text-blue-800"
-        // className="relative w-0 h-0 border-l-[15px] border-r-[15px] border-b-[26px] border-l-transparent border-r-transparent border-b-black"
+        <h1
+          className="text-blue-800"
         >
           Welcome Home!
         </h1>
+        <Link href="/blogs">Blog</Link>
+        <Link href="/products">Products</Link>
+        <Link href="/articles/breaking-news-123?lang=en">Read in English</Link>
+        <Link href="/articles/breaking-news-123?lang=fr">Read in French</Link>
       </div>
     </main>
-  );
+  )
 }
