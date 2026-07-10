@@ -23,8 +23,8 @@ export default async function Home() {
               src={`/img/${recipe.image}`}
               alt={`${recipe.title}`}
               className="w-full object-cover aspect-square"
-              width={240}
-              height={200}
+              width={400}
+              height={360}
               loading="eager"
             />
           </Link>

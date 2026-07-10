@@ -1,5 +1,6 @@
 import Image from "next/image";
 import getRecipes from "../../recipes";
+import Modal from "@/components/modal";
 
 export default async function PhotoModal({
   params,
@@ -10,34 +11,36 @@ export default async function PhotoModal({
   const recipe = (await getRecipes()).find((oneRecipe) => oneRecipe.id === id)!;
 
   return (
-    <div
-      className="container mx-auto my-10"
-    >
+    <Modal>
       <div
-        className="w-1/2 mx-auto"
+        className="container mx-auto my-10"
       >
-        <div>
-          <h1
-            className="text-center text-3xl font-bold my-4"
-          >
-            {recipe.title}
-          </h1>
-        </div>
-        <Image
-          src={`/img/${recipe.image}`}
-          alt={`${recipe.title}`}
-          className="w-full object-cover aspect-square"
-          width={800}
-          height={580}
-          loading="eager"
-        />
         <div
-          className="bg-white py-4"
+          className="w-1/2 mx-auto"
         >
-          <h3>{recipe.photographer} in {recipe.location}</h3>
-          <h3>{recipe.description} It takes {recipe.time} minutes to cook.</h3>
+          <div>
+            <h1
+              className="text-center text-3xl font-bold my-4"
+            >
+              {recipe.title}
+            </h1>
+          </div>
+          <Image
+            src={`/img/${recipe.image}`}
+            alt={`${recipe.title}`}
+            className="w-full object-cover aspect-square"
+            width={800}
+            height={580}
+            loading="eager"
+          />
+          <div
+            className="bg-white py-4"
+          >
+            <h3>{recipe.photographer} in {recipe.location}</h3>
+            <h3>{recipe.description} It takes {recipe.time} minutes to cook.</h3>
+          </div>
         </div>
       </div>
-    </div>
+  </Modal>
   )
 }
