@@ -1,9 +1,5 @@
-import React from 'react'
+export default function AboutPage() {
 
-const About = () => {
-  return (
-    <div>About</div>
-  )
+  console.log("About server component");
+  return <div>About page { new Date().toLocaleString() }</div>
 }
-
-export default About
