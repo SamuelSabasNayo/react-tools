@@ -1,19 +1,18 @@
-import Link from 'next/link'
-import React from 'react'
+import Link from "next/link";
 
-const ProductsList = () => {
-  const productId = 100;
-
+export default function ProductsPage() {
   return (
     <>
-      <Link href="/">Home</Link>
-      <h1>Products List</h1>
-      <Link href="/products/1">Products 1</Link>
-      <Link href="/products/2">Products 2</Link>
-      <Link href="/products/3">Products 3</Link>
-      <Link href={`/products/${productId}`}>Products {productId}</Link>
-      </>
+      <h1>Featured Products</h1>
+      <div>
+        <Link href="/products/1">Product 1</Link>
+      </div>
+      <div>
+        <Link href="/products/2">Product 2</Link>
+      </div>
+      <div>
+        <Link href="/products/3">Product 3</Link>
+      </div>
+    </>
   )
 }
-
-export default ProductsList

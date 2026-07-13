@@ -1,5 +1,10 @@
-export default function AboutPage() {
+import { cookies } from "next/headers";
 
-  console.log("About server component");
+export default async function AboutPage() {
+  const cookieStore = await cookies();
+  const theme =  cookieStore.get("theme");
+  // console.log(theme);
+
+  // console.log("About server component");
   return <div>About page { new Date().toLocaleString() }</div>
 }
