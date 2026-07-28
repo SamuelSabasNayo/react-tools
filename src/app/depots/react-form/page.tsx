@@ -10,7 +10,6 @@ export default function CreateDepot() {
   const [country, setCountry] = useState("");
   const [city, setCity] = useState("");
   const [location, setLocation] = useState("");
-  const [timezone, setTimeZone] = useState("");
   const [totalCapacity, setTotalCapacity] = useState("");
   const [tanks, setTanks] = useState("");
   const [loading, setLoading] = useState(false);
@@ -29,7 +28,6 @@ export default function CreateDepot() {
         country,
         city,
         location,
-        timezone,
         totalCapacity,
         tanks
       );
@@ -46,7 +44,6 @@ export default function CreateDepot() {
         country,
         city,
         location,
-        timezone,
         totalCapacity,
         tanks
       })
